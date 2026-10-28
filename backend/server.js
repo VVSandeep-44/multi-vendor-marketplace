@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Multi-Vendor Marketplace API is running!');
+  res.send('Multi-Vendor Marketplace API is running! Nodemon works!');
 });
 
 app.listen(port, () => {
